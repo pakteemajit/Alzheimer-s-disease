@@ -1,0 +1,40 @@
+# Designing a Study for a Novel Gene Variant
+## By Pakteema Jitviboon
+
+### Question 1: The Foundational Design Choice
+* Part A: Choose one observational design (e.g., prospective cohort, retrospective cohort, or case-control) and one experimental design (e.g., a hypothetical randomized controlled trial for a therapeutic targeting the VAR-X pathway).
+   - Prospective cohort study is employed for an observational design. 
+   - An experimental design is a hypothetical randomized controlled trial for a therapeutic targeting the VAR-X pathway.
+
+* Part B: For each design, define your specific study population, primary exposure, and primary outcome measure.
+   - For the observational design: 
+	1. Specific study population is 500 individuals aged 65 and older who have diagnosed with Alzheimer's disease and the presence/absence of Var-X.
+	2. Primary exposure is the presence versus absence of VAR-X.
+	3. Primary outcome measure is the rate of cognitive decline.
+   - For the experimental design:
+	1. Specific study population is 500 individuals aged 65 and older who have diagnosed with Alzheimer's disease and the presence of Var-X.
+	2. Primary exposure is the gene therapy(treatment) versus placebo.
+	3. Primary outcome measure is the change in cognitive decline between the treatment and placebo groups. 
+
+* Part C: Debate and justify which design would provide the strongest evidence for causality. What are the primary trade-offs between the two in terms of ethics, cost, feasibility, and time?
+   - The experimental study provided the strongest evidence because it can control desired environment and random the samples resulting in minimizing any confounding factors that can cause false analysis.
+   - The experiment study is more concern in ethics, compared to the another, because it directly involved patients treatment; the cohort study is only observation using follow-up, thus the cohort study takes a long time to study the association. On the other hand, it requires lower cost than the experiment study due to no treatment development/equipment, or others; just follow-up cost. In the aspect of feasibility, the cohort study is more achievable as it observes the natural progression of the disease, whereas the experimental study is The probability of treatment success.
+
+### Question 2: Anticipating and Mitigating Bias
+* Part A: Identify and explain the two most likely and impactful sources of bias (e.g., selection bias, information bias/misclassification, confounding).
+   - Information bias: Alzheimer's disease mostly found in elder, there is likely chance to loss follow-up. Moreover, an interview, one way to measure Alzheimer's level, might cause differently recall exposure data (recall bias).  
+   - Confounding factors: it is corresponding to any factors influencing Var-X(independent factor) and cognitive decline(dependent factor), it will cause false association in the experiment e.g. age, hypertension, and others.
+
+* Part B: Propose specific, concrete strategies you would implement during the study design and data analysis phases to minimize the impact of these biases and any key confounders (e.g., age, disease severity at baseline, co-morbidities).
+   - In case of interview, it should set the exact standard for measurement, or the other measurement should be performed or paralleled  such as biomarker test, brain imaging. Moreover, Collect data more frequently to prevent loss follow-up. 
+   - Randomization and matching: Each participant is randomly assigned the treatment/placebo as exposure where there should be the same number of participants with and without the VAR-X in each exposure to minimize known and unknown confounding factors.
+
+### Question 3: The Bioinformatics & Big Data Perspective
+* Part A: How could you leverage existing large-scale resources, such as a national biobank or a federated network of Electronic Health Records (EHRs), to conduct a large-scale retrospective cohort study?
+   - Collecting data involving the study e.g. the study of Var-X variant (locus, expression, pathway) or Alzheimer's disease then select the data that are essential for research to analysis. 
+
+* Part B: Compare and contrast the internal and external validity of this "big data" approach versus a traditional, prospectively recruited cohort. What do you gain in terms of statistical power and generalizability, and what new challenges related to data quality and phenotype accuracy do you face?
+   - Big data offered higher external validity than a traditional. This is becuase that big data contains large and diverse samples, covering many factors compared to the traditional one, represent the real-world population. Thus, it is useful data for application. The traditional offered higher internal validity in the accuracy of the findings for the specific group studied according to the factors that were controlled.
+   - As above answer, big data have large sample sizes causing high power and generalizable of the finding due to it represents the real-world population. 
+   - The challenges related to data quality are about incomplete, inconsistent, inaccurate data leading to bias, take time to manage/collect the data. While, related to phenotype accuracy, it is about the validity of definition invloving data to define phenotype, cause some phenotype is hard to distinguish. 
+
